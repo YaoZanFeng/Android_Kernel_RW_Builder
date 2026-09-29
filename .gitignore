@@ -1,0 +1,17 @@
+/cache/*
+!/cache/.gitkeep
+/build/*
+!/build/.gitkeep
+/bin/*
+!/bin/.gitkeep
+/state/*
+!/state/.gitkeep
+*.o
+*.ko
+*.a
+*.mod
+*.mod.c
+.*.cmd
+Module.symvers
+modules.order
+.tmp_versions/

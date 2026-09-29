@@ -1,0 +1,5 @@
+obj-m := kernel_rw.o
+kernel_rw-y := \
+	src/entry.o \
+	src/memory.o \
+	src/hw_point.o
